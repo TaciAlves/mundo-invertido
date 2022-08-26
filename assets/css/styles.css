@@ -428,7 +428,7 @@ footer::after {
   transform: rotateZ(10deg);
 }
 
-@media screen and (min-width: 411px) {
+@media screen and (min-width: 411px) and (max-width: 500px) {
   .header-content {
     max-width: 415px;
   }
@@ -489,7 +489,6 @@ footer::after {
 
   #section-stranger-things-gallery .gallery-image img {
     border: 1px solid var(--highlight-color);
-
   }
 
 
